@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:background="#ff0000"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="a3danimation.android.com.a3danimation.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <a3danimation.android.com.a3danimation.ThreeDImageView
+        android:layout_width="300dp"
+        android:id="@+id/image"
+        android:background="@drawable/ic_action_star_10"
+        android:layout_height="300dp" />
+
+</LinearLayout>
